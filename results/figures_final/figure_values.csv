@@ -1,0 +1,65 @@
+figure,item,value,source,check
+Fig1,norm ECE@10,0.18660160435546785,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.186602 vs table 0.186602
+Fig1,norm Brier,0.19530333170392547,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.195303 vs table 0.195303
+Fig1,norm bins reproduce ECE@10,0.18660160435546785,tab_calibration_twofold.csv (dl19->dl20),sum_b n_b/N|acc-conf| = 0.186602
+Fig1,"norm bin0 (conf, acc, n)","0.0478, 0.0971, 1122",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin1 (conf, acc, n)","0.1514, 0.1293, 882",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin2 (conf, acc, n)","0.2490, 0.1470, 932",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin3 (conf, acc, n)","0.3510, 0.1572, 738",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin4 (conf, acc, n)","0.4470, 0.1965, 753",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin5 (conf, acc, n)","0.5496, 0.2027, 513",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin6 (conf, acc, n)","0.6466, 0.2470, 417",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin7 (conf, acc, n)","0.7428, 0.2830, 265",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin8 (conf, acc, n)","0.8417, 0.3425, 146",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"norm bin9 (conf, acc, n)","0.9691, 0.5221, 136",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,platt ECE@10,0.18486995177169413,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.184870 vs table 0.184870
+Fig1,platt Brier,0.17662511426878552,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.176625 vs table 0.176625
+Fig1,platt bins reproduce ECE@10,0.18486995177169413,tab_calibration_twofold.csv (dl19->dl20),sum_b n_b/N|acc-conf| = 0.184870
+Fig1,"platt bin0 (conf, acc, n)","0.1961, 0.0000, 5",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin1 (conf, acc, n)","0.2707, 0.1245, 1759",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin2 (conf, acc, n)","0.3446, 0.1724, 2558",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin3 (conf, acc, n)","0.4422, 0.2069, 1097",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin4 (conf, acc, n)","0.5386, 0.2231, 381",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin5 (conf, acc, n)","0.6370, 0.5122, 82",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin6 (conf, acc, n)","0.7461, 0.5500, 20",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"platt bin7 (conf, acc, n)","0.8103, 1.0000, 2",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,isotonic ECE@10,0.18353533640790365,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.183535 vs table 0.183535
+Fig1,isotonic Brier,0.17714768773325654,tab_calibration_twofold.csv (dl19->dl20),recomputed 0.177148 vs table 0.177148
+Fig1,isotonic bins reproduce ECE@10,0.18353533640790365,tab_calibration_twofold.csv (dl19->dl20),sum_b n_b/N|acc-conf| = 0.183535
+Fig1,"isotonic bin0 (conf, acc, n)","0.0000, 0.0345, 58",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin1 (conf, acc, n)","0.1521, 0.2000, 5",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin2 (conf, acc, n)","0.2731, 0.1426, 2462",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin3 (conf, acc, n)","0.3903, 0.1703, 1239",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin4 (conf, acc, n)","0.4051, 0.1944, 1790",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin5 (conf, acc, n)","0.5737, 0.2169, 166",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin6 (conf, acc, n)","0.6608, 0.3586, 145",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin7 (conf, acc, n)","0.7767, 0.7143, 14",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig1,"isotonic bin8 (conf, acc, n)","0.8947, 0.6400, 25",calib_frame_dl19/dl20.parquet,bin of the ECE check above
+Fig2,cv100 AUROC dl19,0.7164502164502164,tab_risk_foldaware.csv,recomputed 0.716450 vs table 0.716450
+Fig2,cv100 AUROC dl20,0.7407407407407407,tab_risk_foldaware.csv,recomputed 0.740741 vs table 0.740741
+Fig2,cv100 stratified AUROC,0.7313182199832073,tab_risk_foldaware.csv,recomputed 0.731318 vs table 0.731318
+Fig2,cv100 risk at coverage 0.25/0.50/0.75/1.00,"0.2083, 0.3750, 0.3836, 0.4948",runs/*.trec + calib frames (07 code path),curve of the AUROC check above
+Fig2,qrcmean_iso AUROC dl19,0.6363636363636364,tab_risk_foldaware.csv,recomputed 0.636364 vs table 0.636364
+Fig2,qrcmean_iso AUROC dl20,0.5754458161865569,tab_risk_foldaware.csv,recomputed 0.575446 vs table 0.575446
+Fig2,qrcmean_iso stratified AUROC,0.5990764063811923,tab_risk_foldaware.csv,recomputed 0.599076 vs table 0.599076
+Fig2,qrcmean_iso risk at coverage 0.25/0.50/0.75/1.00,"0.3333, 0.3958, 0.4932, 0.4948",runs/*.trec + calib frames (07 code path),curve of the AUROC check above
+Fig2,top1 AUROC dl19,0.6666666666666666,tab_risk_foldaware.csv,recomputed 0.666667 vs table 0.666667
+Fig2,top1 AUROC dl20,0.598079561042524,tab_risk_foldaware.csv,recomputed 0.598080 vs table 0.598080
+Fig2,top1 stratified AUROC,0.6246851385390428,tab_risk_foldaware.csv,recomputed 0.624685 vs table 0.624685
+Fig2,top1 risk at coverage 0.25/0.50/0.75/1.00,"0.2500, 0.4167, 0.4795, 0.4948",runs/*.trec + calib frames (07 code path),curve of the AUROC check above
+Fig2,no-selection rate,0.4948453608247423,tab_fold_summary.csv,48/97 = 0.4948; table n_at_risk 21+27 of 43+54
+Fig3,"norm (no fitting): Brier, stratified AUROC [CI]","0.2187, 0.5617 [0.4479, 0.6777]",tab_calibration_pooled_oof.csv; tab_risk_foldaware.csv,"rounds to Table 3/4 values (0.219, 0.562)"
+Fig3,"Platt: Brier, stratified AUROC [CI]","0.2113, 0.6079 [0.4873, 0.7187]",tab_calibration_pooled_oof.csv; tab_risk_foldaware.csv,"rounds to Table 3/4 values (0.211, 0.608)"
+Fig3,"isotonic: Brier, stratified AUROC [CI]","0.2110, 0.5991 [0.4777, 0.7113]",tab_calibration_pooled_oof.csv; tab_risk_foldaware.csv,"rounds to Table 3/4 values (0.211, 0.599)"
+Fig3,"norm+Platt: Brier, stratified AUROC [CI]","0.2008, 0.5617 [0.4485, 0.6776]",tab_calibration_pooled_oof.csv; tab_risk_foldaware.csv,"rounds to Table 3/4 values (0.201, 0.562)"
+Fig3,"norm+isotonic: Brier, stratified AUROC [CI]","0.2022, 0.5680 [0.4506, 0.6841]",tab_calibration_pooled_oof.csv; tab_risk_foldaware.csv,"rounds to Table 3/4 values (0.202, 0.568)"
+Fig3,CV@100 reference AUROC [CI],"0.7313 [0.6247, 0.8238]",tab_risk_foldaware.csv,"rounds to 0.731 [0.625, 0.824]"
+Fig3,direct-label layout,no collisions,rendered figure,"labels clear of labels, CIs, markers, band, chance line, legend, axes"
+Fig4,mean10 AUROC [CI],"0.6096 [0.4893, 0.7205]",tab_risk_foldaware.csv,"rounds to Table 5 (0.61, 0.489, 0.72)"
+Fig4,std10 AUROC [CI],"0.6474 [0.5345, 0.7542]",tab_risk_foldaware.csv,"rounds to Table 5 (0.647, 0.534, 0.754)"
+Fig4,cv10 AUROC [CI],"0.5886 [0.4678, 0.6945]",tab_risk_foldaware.csv,"rounds to Table 5 (0.589, 0.468, 0.695)"
+Fig4,mean100 AUROC [CI],"0.5332 [0.4094, 0.6514]",tab_risk_foldaware.csv,"rounds to Table 5 (0.533, 0.409, 0.651)"
+Fig4,std100 AUROC [CI],"0.7691 [0.6684, 0.8557]",tab_risk_foldaware.csv,"rounds to Table 5 (0.769, 0.668, 0.856)"
+Fig4,cv100 AUROC [CI],"0.7313 [0.6247, 0.8238]",tab_risk_foldaware.csv,"rounds to Table 5 (0.731, 0.625, 0.824)"
+Fig4,contrast std10-mean10,"0.0378 [-0.0978, 0.1755]",tab_risk_contrasts.csv,"rounds to Table 6 (0.038, -0.098, 0.176)"
+Fig4,contrast std100-mean100,"0.2359 [0.0971, 0.3693]",tab_risk_contrasts.csv,"rounds to Table 6 (0.236, 0.097, 0.369)"

@@ -1,0 +1,13 @@
+signal_a,signal_b,contrast,delta_auroc,ci_lo,ci_hi,ci_excludes_0
+std10,mean10,depth-matched @10: dispersion vs level (raw),0.03778337531486142,-0.09777315789854604,0.1755397507104107,False
+cv10,mean10,depth-matched @10: CV vs level (raw),-0.02099076406381195,-0.19090730387467114,0.1493414965986394,False
+std10,top1,dispersion@10 vs top-1 level,0.02267002518891681,-0.09364671943364693,0.1368723473024034,False
+pstd10_iso,qrcmean_iso,calibrated @10: dispersion vs level (isotonic),0.04366078925272876,-0.08660091830130992,0.1703836151076575,False
+pstd10_platt,qrcmean_platt,calibrated @10: dispersion vs level (Platt),0.05037783375314864,-0.07552034012948106,0.17955561694290978,False
+std100,mean100,depth-matched @100: dispersion vs level (raw),0.23593618807724615,0.0971116733436977,0.3692833233251394,True
+cv100,cv10,depth effect: CV@100 vs CV@10,0.14273719563392107,0.02732745961820842,0.2532229398760239,True
+std100,std10,depth effect: std@100 vs std@10,0.12174643157010934,0.014501895482592493,0.2284850399038609,True
+qrcmean_platt,mean10,calibration effect: QRC-mean (Platt) vs raw mean@10,-0.0016792611251049694,-0.007582941682097516,0.0,False
+qrcmean_nplatt,qrcmean_platt,better-calibrated vs raw-score calibrator (QRC-mean),-0.04617968094038616,-0.1851559971626805,0.10639371544118961,False
+qrcmean_niso,qrcmean_iso,"better-calibrated vs raw-score calibrator (QRC-mean, isotonic)",-0.031066330814441656,-0.18865942886826723,0.13010266931273684,False
+qrcmax_iso,qrcmax_platt,QRC-max: isotonic (ties) vs Platt (strict),0.01049538203190592,-0.014949030850598172,0.03906566722972971,False

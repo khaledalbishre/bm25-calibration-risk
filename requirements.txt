@@ -1,0 +1,21 @@
+# Direct dependencies of code/, pinned to the versions of the environment
+# that produced every reported result (Python 3.12.10).
+# Versions read from installed package metadata, not assumed.
+# requirements-lock.txt pins the complete environment (all 144 packages).
+#
+# Non-pip requirements:
+#   Python 3.12 (3.12.10 used)
+#   Java 21 for Pyserini/Anserini (Eclipse Temurin 21.0.10, found via JAVA_HOME)
+#
+# pytrec_eval-terrier is the maintained fork of pytrec_eval with prebuilt
+# wheels; it imports as `pytrec_eval`.
+
+pyserini==1.6.0            # BM25 retrieval; bundles Anserini 1.7.1 (Lucene 9.9.1)
+pyjnius==1.7.0             # Java bridge used by Pyserini
+pytrec_eval-terrier==0.5.10
+scikit-learn==1.9.0        # Platt (LogisticRegression) and IsotonicRegression
+numpy==2.5.2
+pandas==3.0.5
+pyarrow==25.0.1            # parquet I/O for the calibration frames
+scipy==1.18.0              # rankdata, spearmanr
+matplotlib==3.11.1         # figures
