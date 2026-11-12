@@ -1,0 +1,21 @@
+criterion,threshold,pos_dl19,neg_dl19,pos_dl20,neg_dl20,feasible
+nDCG@10 < 0.05,0.05,1,42,4,50,False
+nDCG@10 < 0.10,0.1,4,39,5,49,False
+nDCG@10 < 0.15,0.15,4,39,6,48,False
+nDCG@10 < 0.20,0.2,7,36,6,48,False
+nDCG@10 < 0.25,0.25,7,36,10,44,False
+nDCG@10 < 0.30,0.3,8,35,16,38,False
+nDCG@10 < 0.35,0.35,10,33,16,38,True
+nDCG@10 < 0.40,0.4,13,30,24,30,True
+nDCG@10 < 0.45,0.45,16,27,26,28,True
+nDCG@10 < 0.50,0.5,21,22,29,25,True
+nDCG@10 < 0.55,0.55,26,17,34,20,True
+nDCG@10 < 0.60,0.6,31,12,37,17,True
+nDCG@10 < 0.65,0.65,32,11,38,16,True
+nDCG@10 < 0.70,0.7,34,9,41,13,False
+nDCG@10 < 0.75,0.75,35,8,45,9,False
+nDCG@10 < 0.80,0.8,36,7,45,9,False
+nDCG@10 < 0.85,0.85,38,5,50,4,False
+nDCG@10 < 0.90,0.9,39,4,50,4,False
+nDCG@10 < 0.95,0.95,41,2,52,2,False
+no grade>=2 passage in top 10,,2,41,7,47,False
